@@ -38,8 +38,8 @@ class LoanCalculator:
         
 		# Create button to calculate payment. When button is clicked it will call the compute payment function
 
-        btComputePayment = Button(window, text="Compute Payment", highlightbackground="blue", bg="red", fg="black", font="Helvetica 14 bold", command=self.computePayment).grid(row=6, column=2, sticky=E)
-        btClear = Button(window, text="Clear", highlightbackground="red", bg="blue",fg="black",font='Helvetica 14 bold', command=self.delete_all).grid(row=6, column=8, padx=20,pady=20 ,sticky=E)
+        btComputePayment = Button(window, text="Compute Payment", highlightbackground="blue", bg="blue", fg="black", font="Helvetica 14 bold", command=self.computePayment).grid(row=6, column=2, sticky=E)
+        btClear = Button(window, text="Clear", highlightbackground="red", bg="red",fg="black",font='Helvetica 14 bold', command=self.delete_all).grid(row=6, column=8, padx=20,pady=20 ,sticky=E)
 
         window.mainloop()  # The mainloop () function is used to run the application program.
 
